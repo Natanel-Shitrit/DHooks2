@@ -342,8 +342,7 @@ methodmap DHookParam < Handle
 
 	// Get param address (Use only for ptr param types)
 	// 
-	// @param hParams		Handle to params structure
-	// @param num			Param number to get. (Example if the function has 2 params and you need the value of the first param num would be 1. 0 Will return the number of params stored)
+	// @param num			Param number to get. (Example if the function has 2 params and you need the value of the first param num would be 1.)
 	// 
 	// @error Invalid handle. Invalid param number. Invalid param type.
 	// @return address of the parameter.
@@ -942,7 +941,7 @@ native bool DHookIsNullParam(Handle hParams, int num);
 /* Get param address (Use only for ptr param types)
  * 
  * @param hParams		Handle to params structure
- * @param num			Param number to get. (Example if the function has 2 params and you need the value of the first param num would be 1. 0 Will return the number of params stored)
+ * @param num			Param number to get. (Example if the function has 2 params and you need the value of the first param num would be 1.)
  * 
  * @error Invalid handle. Invalid param number. Invalid param type.
  * @return address of the parameter.
